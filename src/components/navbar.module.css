@@ -1,0 +1,155 @@
+.navbarContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 50px;
+    background-color: rgb(66 122 233 / 95%);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.logoContainer{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.logoName{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.inputContainer{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainerInside{
+    width: 85%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.searchIcon{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.searchIcon:hover{
+    cursor: pointer;
+}
+
+.inputBox{
+    width: 88%;
+    height: 70%;
+    font-weight: 700;
+    border: none;
+}
+
+.inputBox:focus{
+    outline: none;
+}
+
+.profileContainer{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.text{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.homePage{
+    margin-right: 15px;
+    color: white;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icons{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.personDiv, .messageDiv, .notifyDiv{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.person, .message, .notify{
+    position: relative;
+    font-size: 20px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.count1,.count2,.count3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 13px;
+    background-color: red;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.count1{
+    left: 32px;
+}
+
+.count2{
+    left: 75px;
+}
+
+.count3{
+    left: 112px;
+}
+
+.profilePhoto{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePic{
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

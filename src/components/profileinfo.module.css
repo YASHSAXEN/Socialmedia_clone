@@ -1,0 +1,54 @@
+.profileInfo{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.infoContent div{
+    display: flex;
+    gap: 10px;
+}
+
+.friends{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.friendImages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image{
+    width: 28%;
+    height: 100px;
+    margin-left:5px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.usernames{
+    font-size: 13px;
+}
